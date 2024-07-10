@@ -52,4 +52,4 @@ There are some fields I don't have in here; preferredMin and preferredMax both s
 # TO-DO AND FUTURE THOUGHTS
 I wrote these pretty quickly and had to hotfix them mid-game, but they're still rather user unfriendly. In the coming months I plan on writing a python GUI application that will allow you to edit the game's .jet itself and put things where they need to be, with a nice table layout or something, while still requiring minor work from the user.
 
-
+You could probably give everything in Nonsensory in round 1 and 2 the same category (Write something, Draw something, Write/Draw something for complete insanity) and just dump every prompt under that category for it to just pull completely random stuff every game.
