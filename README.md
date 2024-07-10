@@ -31,8 +31,11 @@ You need Python 3 installed.  Keep the three scripts in separate folders; each p
 
 # NOTES
 For each content.jet, a comma is written at the end of each entry so it can be copied and pasted right into the game's .jet files.  However, a trailing comma at the end of the last entry left in the game's .jet files can break it.  It's hard to explain for me, but as a rule of thumb, whenever you copy stuff from a content.jet to the game's category or prompt .jet file, do not copy the VERY LAST comma in the file.
+
 For each category, there needs to be at least 1 prompt per two players or it WILL softlock.  I try to keep it in sets of 4, but I imagine it doesn't really matter any game as long as it's 4 or more to prevent softlocks.
+
 rangeType values:
+```
 1_TO_10 : this is just from 1-10.  easy.
 1_TO_10_ALT: no idea
 PERCENT : percentage from 10% to 100%.
@@ -42,7 +45,7 @@ STAR: Puts .5 stars at the bottom, incrementing by .5 up to 5 stars.
 EXCLAMATION: I think this just starts at one ! at the bottom then goes to !!!!!!!!!! at the top.
 ARROW: This is only used by the last round.  Shows 100% to 60% counting down from the top, then 60% to 100% towards the bottom.
 ARROW is hard baked into the round 3 prompt tool.
-
+```
 # TO-DO AND FUTURE THOUGHTS
 I wrote these pretty quickly and had to hotfix them mid-game, but they're still rather user unfriendly. In the coming months I plan on writing a python GUI application that will allow you to edit the game's .jet itself and put things where they need to be, with a nice table layout or something, while still requiring minor work from the user.
 
