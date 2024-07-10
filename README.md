@@ -46,6 +46,9 @@ EXCLAMATION: I think this just starts at one ! at the bottom then goes to !!!!!!
 ARROW: This is only used by the last round.  Shows 100% to 60% counting down from the top, then 60% to 100% towards the bottom.
 ARROW is hard baked into the round 3 prompt tool.
 ```
+
+There are some fields I don't have in here; preferredMin and preferredMax both set a cap on the ratio's maximum or minimum; this is used by the base game when a prompt is supposed to be drawn poorly, for example.
+
 # TO-DO AND FUTURE THOUGHTS
 I wrote these pretty quickly and had to hotfix them mid-game, but they're still rather user unfriendly. In the coming months I plan on writing a python GUI application that will allow you to edit the game's .jet itself and put things where they need to be, with a nice table layout or something, while still requiring minor work from the user.
 
