@@ -1,4 +1,4 @@
-# NonsensoryModding
+# NonsensoryModdingTool
 Set of Python scripts to make modding Nonsensory for The Jackbox Party Pack 9 easier.
 
 I hacked together these scripts as I had been modding Nonsensory and Poll Mine by hand, but the files of both having another folder with data the game uses became tedious and I was making mistakes.  More than I did writing these scripts, anyway.  These instructions assume a basic knowledge of scripting/coding logic, primarily because you have to copy and paste the entries to the .jet files yourself, and you don't want to muck up the formatting for {} brackets, or extra commas, and soforth.
