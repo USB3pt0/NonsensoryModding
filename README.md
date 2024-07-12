@@ -26,7 +26,7 @@ You need Python 3 installed.  Keep the three scripts in separate folders; each p
 
 # Round 3 Prompts
 1. Use the Final Round Prompt Tool for this. It has the built-in "Draw something between Two Points" category ID baked into the script, as well as the scaletype it uses. If you wanted to change round 3 entirely, however, use the above tools.  As far as I know it should work, however I have noticed there is no category.ogg for round 3's category, so something may not work.
-2. You will be prompted for a Prompt ID, Prompt Text for player, Question text, the SECOND POINT YOU LISTED, then the FIRST POINT YOU LISTED, and the window will close. This is because, for whatever reason, the third round uses the first thing in the prompt/question as the bottom of the scale and the other as the top. Ex: For the prompt/question "(Draw something that/Where does this) belong(s) between MARIO and SONIC", you would put SONIC for SECOND point, and MARIO for FIRST.
+2. You will be prompted for a Prompt ID, "First point" and "Second point".  These are merely the two points you're drawing between like in base game.  For example, one of mine uses "WARIO" and "BASS (mega man)".
 3. Add a question.ogg to the newly generated folder, then copy the folder to RangeGame/content/yourlanguagefolder/RangeGameFinalRoundPrompt, and copy the content from content.jet to the RangeGameFinalRoundPrompt.jet files. You're golden!
 
 # NOTES
